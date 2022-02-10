@@ -1,16 +1,28 @@
 # candleflutter
 
-A new Flutter project.
+    If you need a backend, you can take a look link below
+      https://github.com/cancil0/Candle-Backend
+      If you use above link for backend, you can use one of below apiUrls
+        https://localhost:5001/api/
+        http://localhost:5000/api/
 
-## Getting Started
+  ApiUrl
+    If you want to debug, you have to change apiUrl for your local.
+    
+    For Chrome or Edge use https://localhost:9091/api/
+    For Android Emulator use https://10.0.2.2:9091/api/
+    For Physical Android Device use https://192.168.1.36:9091/api/
+      192.168.1.36 is localhost address for my computer. 
+      You can learn your ip address from Command Prompt (cmd).
+        Write ipconfig to cmd then check for IPv4 Address.
+      If you debug at Physical Device, you have to give permission 
+        for your port from windows firewall.
 
-This project is a starting point for a Flutter application.
+  PrivateTokenKey
+    is a key which provides extra security for jwt token.
+    You can find same key that is named securityKey at
+      https://github.com/cancil0/Candle-Backend/blob/master/Candle.Web.Api/appsettings.json
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  DB
+    I used Postgre DB. I shared a db dumb. If you use Candle-Backend, you can import. You can find db at
+      https://github.com/cancil0/Candle-Backend
