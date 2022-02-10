@@ -1,0 +1,42 @@
+{
+    "Main":{
+        "Discover":{
+            "Discover":"Discover"
+        },
+        "Home":{
+            "HomePage":"Home"
+        },
+        "Profile":{
+            "Profile":"Profile"
+        }
+    },
+    "Login":{
+        "ForgotPassword":{
+            "ForgotPassword":"Forgot Password"
+        },
+        "Login":{
+            "Login":"Login",
+            "SignUp":"Sign Up",
+            "Email":"Email",
+            "Password":"Password",
+            "ForgotPassword":"Forgot Password",
+            "LoginLabel":"Login",
+            "Exception":{
+                "Email":"E-mail is mandatorly",
+                "Password":"Password is mandatorly",
+                "NotLogined":"Please check your email or password"
+            }
+        },
+        "SignUp":{
+            "SignUp":"Sign Up",
+            "Name" : "Name",
+            "SurName" : "Surname",
+            "Email" : "Email",
+            "SecondaryEmail" : "Secondary Email",
+            "MobilePhone" : "Mobile Phone",
+            "Password" : "Password",
+            "RePassword" : "Re-Password",
+            "UserName" : "User Name"
+        }
+    }
+}

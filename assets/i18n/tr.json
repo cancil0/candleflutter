@@ -1,0 +1,42 @@
+{
+    "Main":{
+        "Discover":{
+            "Discover":"Keşfet"
+        },
+        "Home":{
+            "HomePage":"Ana Sayfa"
+        },
+        "Profile":{
+            "Profile":"Profil"
+        }
+    },
+    "Login":{
+        "ForgotPassword":{
+            "ForgotPassword":"Şifremi Unuttum"
+        },
+        "Login":{
+            "Login":"Oturum Aç",
+            "SignUp":"Kayıt Ol",
+            "Email":"E posta",
+            "Password":"Şifre",
+            "ForgotPassword":"Şifremi Unuttum",
+            "LoginLabel":"Giriş Yap",
+            "Exception":{
+                "Email":"E-Posta Zorunlu",
+                "Password":"Şifre Zorunlu",
+                "NotLogined":"Lütfen Şifre ya da Kullanıcı Adınızı kontrol edin"
+            }
+        },
+        "SignUp":{
+            "SignUp":"Kayıt Ol",
+            "Name" : "İsim",
+            "SurName" : "Soyisim",
+            "Email" : "Eposta",
+            "SecondaryEmail" : "İkincil Eposta",
+            "MobilePhone" : "Telefon Numarası",
+            "Password" : "Şifre",
+            "RePassword" : "Şifre Tekrar",
+            "UserName" : "Kullanıcı Adı"
+        }
+    }
+}
